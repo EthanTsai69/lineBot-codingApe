@@ -39,7 +39,7 @@ def handle_message(event):
         confirm_template = TemplateSendMessage(
             alt_text = 'confirm template',
             template = ConfirmTemplate(
-                text = 'drink coffee?',
+                text = 'get a triple mac bacon burger with cheese, beef, duck, moose, and airplane sause?',
                 actions = [
                     MessageAction(
                         label = 'yes',
