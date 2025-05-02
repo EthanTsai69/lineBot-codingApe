@@ -57,7 +57,7 @@ def handle_message(event):
         buttons_template = TemplateSendMessage(
             alt_text = 'buttons template',
             template = ButtonsTemplate(
-                thumbnail_image_url='https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg',
+                thumbnail_image_url='https://media.istockphoto.com/id/145243215/photo/mega-beefburger.jpg?s=612x612&w=0&k=20&c=OvP4C21hpaQ6B7kaG5NCzTZJDT32MIgh59EvVkJ_2to=',
                 title = 'Brown Cafe',
                 text = 'Enjoy your coffee',
                 actions = [
