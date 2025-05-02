@@ -43,10 +43,10 @@ def handle_message(event):
                 actions = [
                     MessageAction(
                         label = 'yes',
-                        text = 'yes'),
+                        text = 'that will be $500,000 with 20% tax and 10% customer service'),
                     MessageAction(
                         label = 'no',
-                        text = 'no')]
+                        text = 'Because you pressed no, you will be sent to Neptune to fight a unicorn with 5 horns while eating popcorn served by a rhino.')]
                 )
             )
         line_bot_api.reply_message(event.reply_token, confirm_template)
