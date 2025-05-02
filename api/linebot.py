@@ -58,15 +58,15 @@ def handle_message(event):
             alt_text = 'buttons template',
             template = ButtonsTemplate(
                 thumbnail_image_url='https://media.istockphoto.com/id/145243215/photo/mega-beefburger.jpg?s=612x612&w=0&k=20&c=OvP4C21hpaQ6B7kaG5NCzTZJDT32MIgh59EvVkJ_2to=',
-                title = 'Brown Cafe',
-                text = 'Enjoy your coffee',
+                title = 'Mr. Diddy's burger restaurant that's filled with dinosaurs',
+                text = 'Enjoy your burger!',
                 actions = [
                     MessageAction(
-                        label = '咖啡有什麼好處',
-                        text = '讓人有精神'),
+                        label = 'Launch a nuke from north korea',
+                        text = '5, 4, 3, 2-'),
                     URIAction(
-                        label = '伯朗咖啡',
-                        uri = 'https://www.mrbrown.com.tw/')]
+                        label = 'My goofy ahh burger place',
+                        uri = 'https://maps.app.goo.gl/gXY5h4KWvChDf9U17')]
                 )
             )
 
