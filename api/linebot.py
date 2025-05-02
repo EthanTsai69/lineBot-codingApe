@@ -66,7 +66,7 @@ def handle_message(event):
                         text = '5, 4, 3, 2-'),
                     URIAction(
                         label = 'My goofy ahh burger place',
-                        uri = 'https://www.google.com/maps/place/McDonald's/@28.4504681,-81.4739978,17z/data=!3m1!4b1!4m6!3m5!1s0x88e77e5534ccb6bb:0x7e45cfcb49c75afa!8m2!3d28.4504681!4d-81.4714229!16s%2Fg%2F11x9l4v6b?entry=ttu&g_ep=EgoyMDI1MDQyOS4wIKXMDSoASAFQAw%3D%3D')]
+                        uri = 'https://www.mrbrown.com.tw/')]
                 )
             )
 
